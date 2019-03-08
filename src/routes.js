@@ -1,4 +1,5 @@
 import Home from './components/Home'
+import Trays from './components/trays/Tray'
 import About from './components/About'
 import Post from './components/Post'
 import Posts from './components/Posts'
@@ -9,6 +10,7 @@ import NotFount from './components/NotFount'
 
 const routes = [
     {path: "/", component: Home, name: "home"},
+    {path: "/trays", component: Trays, name: "trays"},
     {path: "/about", component: About, beforeEnter:(to, from, next)=>{
             next();
         }

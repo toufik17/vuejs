@@ -6,6 +6,11 @@
         </router-link>
       </li>
       <li class="nav-item">
+        <router-link :to="{name: 'trays'}" class="nav-link" active-class="active" exact href="#">
+          Trays
+        </router-link>
+      </li>
+      <li class="nav-item">
         <router-link to="/about" class="nav-link" active-class="active" href="#">
           About Us
         </router-link>

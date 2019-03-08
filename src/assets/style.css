@@ -1,0 +1,10 @@
+.list-group, .course-statistics {
+	padding-left: 0;
+}
+.course-statistics li{
+	list-style: none;
+	padding-bottom: 5px;
+}
+.youtube-color{
+	color: #FF0000;
+}
