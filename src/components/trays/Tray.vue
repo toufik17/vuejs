@@ -1,27 +1,27 @@
 <template>
-    <div class="row">
+    <div class="container row">
           <div class="col-lg-4" v-for="tray in trays" :key="tray.id">
           <div class="card">              
-              <img :src="tray.url" class="card-img-top" :alt="tray.label">
+              <img :src="tray.humbnail" class="card-img-top" :alt="tray.label">
               <div class="card-body">
-                <h5 class="card-title">{{tray.label}}</h5>
+                <h3 class="card-title">{{tray.label}}</h3>
               </div>
               <ul class="list-group list-group-flush">
                   <li class="list-group-item">
-                      <i class="fab fa-youtube youtube-color"></i>
+                      <i class="fa fa-info-circle"></i>
                       information
                   </li>
                   <li class="list-group-item">
                       <ul class="tray-informations">
-                          <li><i class="fas fa-bars"></i> treatment level : {{tray.treatmentLevel}}</li>
-                          <li><i class="far fa-play-circle"></i> element count : {{tray.elementCount}}</li>
-                          <li><i class="far fa-thumbs-up"></i> treatment type : {{tray.treatmentType}}</li>
+                          <li><i class="fas fa-bars"></i> Niveau traitement : {{tray.treatmentLevel}}</li>
+                          <li><i class="fas fa-arrow-circle-up"></i> Nombre élément : {{tray.elementCount}}</li>
+                          <li><i class="fas fa-align-center"></i> Type traitement : {{tray.treatmentType}}</li>
                       </ul>
                   </li>
               </ul>
-              <div class="card-body">
-                  <a href="#"><i :class="tray.humbnail"></i></a> 
-              </div>
+                <div class="card-body">
+                    <a target="_blank" :href="tray.url" class="btn btn-secondary btn-block">View</a>
+                </div>
           </div>
       </div>
     </div>

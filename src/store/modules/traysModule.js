@@ -6,29 +6,29 @@ const traysModule = {
     getters:{
         defaultTray(state){
             state.trays.push({
-                'label': 'dossier de credit',
-                'description': 'dossier de financement',
+                'label': 'Credit',
+                'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
                 'treatmentType': 'classification',
-                "humbnail": 'fa fa-trash',
-                "url": require('@/assets/img/document.png')
+                "humbnail": require('@/assets/img/document.png'),
+                "url": ''
             }, {
-                'label': 'dossier',
-                'description': 'dossier de financement',
+                'label': 'Financement',
+                'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
                 'treatmentType': 'classification',
-                "humbnail": 'fa fa-trash',
-                "url": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png'
+                "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
+                "url": ''
             }, {
-                'label': 'dossier',
-                'description': 'dossier de financement',
+                'label': 'Facture',
+                'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
                 'treatmentType': 'classification',
-                "humbnail": 'fa fa-trash',
-                "url": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png'
+                "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
+                "url": ''
             });
         },  
         trays(state){
