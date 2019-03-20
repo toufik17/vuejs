@@ -6,26 +6,26 @@ const traysModule = {
     getters:{
         defaultTray(state){
             state.trays.push({
-                'label': 'Credit',
-                'description': 'Dossier de financement',
+                'label': 'C',
+                'description': 'C',
                 'elementCount': '0',
-                'treatmentLevel': 'envelope',
+                'treatmentLevel': 'e',
                 'treatmentType': 'clf',
                 "humbnail": require('@/assets/img/document.png'),
                 "url": ''
             }, {
-                'label': 'Financement',
-                'description': 'Dossier de financement',
+                'label': 'FI',
+                'description': 'FI',
                 'elementCount': '0',
-                'treatmentLevel': 'envelope',
+                'treatmentLevel': 'e',
                 'treatmentType': 'clf',
                 "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
                 "url": ''
             }, {
-                'label': 'Facture',
-                'description': 'Dossier de financement',
+                'label': 'FA',
+                'description': 'FA',
                 'elementCount': '0',
-                'treatmentLevel': 'envelope',
+                'treatmentLevel': 'e',
                 'treatmentType': 'clf',
                 "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
                 "url": ''
