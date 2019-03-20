@@ -10,7 +10,7 @@ const traysModule = {
                 'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
-                'treatmentType': 'classification',
+                'treatmentType': 'clf',
                 "humbnail": require('@/assets/img/document.png'),
                 "url": ''
             }, {
@@ -18,7 +18,7 @@ const traysModule = {
                 'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
-                'treatmentType': 'classification',
+                'treatmentType': 'clf',
                 "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
                 "url": ''
             }, {
@@ -26,7 +26,7 @@ const traysModule = {
                 'description': 'Dossier de financement',
                 'elementCount': '0',
                 'treatmentLevel': 'envelope',
-                'treatmentType': 'classification',
+                'treatmentType': 'clf',
                 "humbnail": 'https://www.thomasmalbaux.fr/wp-content/uploads/2012/03/dossierlocation_700x500.png',
                 "url": ''
             });
